@@ -25,7 +25,7 @@ ENV/
 # ======================================
 logs/
 *.log
-outputs/
+
 results/
 
 # ======================================
@@ -34,7 +34,6 @@ results/
 data/
 dataset/
 datasets/
-images/
 chest_xray/
 XrayImages/
 
