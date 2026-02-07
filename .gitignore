@@ -1,0 +1,97 @@
+# ======================================
+# Python bytecode & cache
+# ======================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ======================================
+# Virtual environments (IMPORTANT)
+# ======================================
+env/
+venv/
+.venv/
+ENV/
+
+# ======================================
+# PyTorch / model artifacts
+# ======================================
+*.pt
+*.pth
+*.ckpt
+
+# ======================================
+# Logs & outputs
+# ======================================
+logs/
+*.log
+outputs/
+results/
+
+# ======================================
+# Datasets & medical images (DO NOT COMMIT)
+# ======================================
+data/
+dataset/
+datasets/
+images/
+chest_xray/
+XrayImages/
+
+# Optional low-quality image dumps
+Unclear_Images/
+blurry_images/
+
+# ======================================
+# Temporary & system files
+# ======================================
+*.tmp
+*.temp
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ======================================
+# Jupyter Notebook
+# ======================================
+.ipynb_checkpoints/
+
+# ======================================
+# IDE / Editor files
+# ======================================
+.vscode/
+.idea/
+*.iml
+
+# ======================================
+# Experiment & tracking artifacts
+# ======================================
+runs/
+wandb/
+mlruns/
+
+# ======================================
+# Environment & secrets
+# ======================================
+.env
+.env.*
+
+# ======================================
+# Packaging & build
+# ======================================
+build/
+dist/
+*.egg-info/
+
+# ======================================
+# LaTeX auxiliary files (paper-related)
+# ======================================
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
