@@ -121,12 +121,8 @@ Image quality assessment
 
 🖼 Input and Output Examples
 📥 Input Images
-(Place example chest X-ray images here)
+     Example input images are provided in the `images/in` directory. These images are used to demonstrate the expected input format for the model.
 
-examples/input/
-├── clear_image.jpg
-├── ambiguous_image.jpg
-└── blurry_image.jpg
 📤 Output Example
 Decision            : ABSTAIN
 Selected Hypothesis : Pleural Effusion
@@ -144,10 +140,6 @@ The uploaded image exhibits sufficient sharpness for diagnostic analysis.
 This software is intended solely for research and decision-support purposes.
 It does not provide medical diagnoses and must not be used for clinical decision-making without qualified expert oversight.
 
-📌 Citation
-If you use this code in your research, please cite the associated article:
-
-Entropy-Driven Evidential Reasoning with Explicit Ignorance for Uncertainty-Aware Decision Support
 
 📬 Contact
 For questions, feedback, or collaboration, please open an issue in this repository or contact the authors.
