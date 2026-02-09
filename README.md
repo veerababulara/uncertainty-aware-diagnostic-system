@@ -27,6 +27,7 @@ The implementation is intended for **research and decision-support purposes** an
 .
 ├── inference.py # Core epistemic reasoning and inference logic
 ├── main.py # Entry point and user interaction loop
+├── app.py # interface for thr project
 ├── model.pt # Trained CNN used as an evidence generator
 ├── requirements.txt # Python dependencies
 ├── Unclear_Images/ # (Optional) extracted low-quality images
@@ -121,7 +122,7 @@ Image quality assessment
 
 🖼 Input and Output Examples
 📥 Input Images
-     Example input images are provided in the `images/in` directory. These images are used to demonstrate the expected input format for the model.
+     Example input images are provided in the `images/` directory. These images are used to demonstrate the expected input format for the model.
 
 📤 Output Example
 Decision            : ABSTAIN
